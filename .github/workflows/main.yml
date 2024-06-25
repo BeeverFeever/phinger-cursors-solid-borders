@@ -18,7 +18,7 @@ jobs:
         with:
           access_token: ${{ secrets.FIGMA_ACCESS_TOKEN }}
           file_key: ${{ secrets.FIGMA_FILE_KEY }}
-          theme_name: Phinger Cursors
+          theme_name: Phinger Cursors White Borders
           theme_author: Philipp Schaffrath (phisch)
           theme_comment: Most likely the most over engineered cursor theme.
           output_directory: ${{ env.EXPORT_DIRECTORY }}
@@ -56,7 +56,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: phinger-cursors-variants
+          name: phinger-cursors-white-borders-variants
           path: ${{ env.BUILD_DIRECTORY }}/${{ env.ARCHIVE_NAME }}
       - name: Draft Release
         uses: softprops/action-gh-release@v2
