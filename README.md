@@ -1,6 +1,10 @@
-# Phinger Cursors
+# Phinger Cursors White Borders
 
 Say hello to your new cursor theme. Phinger Cursors is most likely the most over engineered cursor theme out there.
+
+The only changes that have been made to this version of Phinger Cursors is the border of the cursors. Instead of being transparent, they are white like before v2.0.0.
+
+> IMPORTANT: The install process hasn't been updated for the white borders, if you follow this readme you will be installing the original Phinger Cursors.
 
 ![preview](assets/preview.png)
 
