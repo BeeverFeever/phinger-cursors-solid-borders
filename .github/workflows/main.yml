@@ -38,7 +38,7 @@ jobs:
     name: Build cursor theme
     needs: export_cursor_theme
     env:
-      ARCHIVE_NAME: phinger-cursors-variants.tar.bz2
+      ARCHIVE_NAME: phinger-cursors-solid-borders-variants.tar.bz2
       BUILD_DIRECTORY: build
     steps:
       - name: Checkout repository
